@@ -1,0 +1,17 @@
+{
+  "name": "tasks-e2e-test",
+  "version": "1.0.0",
+  "description": "e2e tests for tasks project from CI course",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "Leonardo Philippi Degering",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.74.0"
+  }
+}

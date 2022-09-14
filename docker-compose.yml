@@ -1,0 +1,10 @@
+version: '3'
+services:
+  cypress:
+    image: 'cypress/included:10.8.0'
+    command: "--browser chrome"
+    environment: 
+        - CYPRESS_baseUrl=http://192.168.25.19:8002/tasks
+    volumes:
+        - ./cypress:/cypress
+        - ./cypress.config.js:/cypress.config.js
